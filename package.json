@@ -3,6 +3,10 @@
   "version": "6.0.3",
   "description": "Client-side Bitcoin JavaScript library",
   "main": "./src/index.js",
+  "exports": { 
+    "import": "./src/index.js", 
+    "require": "./src/index.js"
+  },
   "types": "./types/index.d.ts",
   "engines": {
     "node": ">=8.0.0"
@@ -67,6 +71,7 @@
   },
   "devDependencies": {
     "@asoltys/minimaldata": "^2.0.1",
+    "@skypack/package-check": "^0.2.2",
     "@types/bs58": "^4.0.0",
     "@types/mocha": "^5.2.7",
     "@types/node": "12.7.5",
