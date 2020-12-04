@@ -3,7 +3,7 @@ import { describe, it } from 'mocha';
 import * as bscript from '../src/script';
 import * as fixtures from './fixtures/script.json';
 import * as fixtures2 from './fixtures/templates.json';
-const minimalData = require('minimaldata');
+const minimalData = require('@asoltys/minimaldata');
 
 describe('script', () => {
   // TODO

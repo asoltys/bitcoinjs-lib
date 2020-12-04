@@ -5,10 +5,10 @@ const scriptSignature = require('./script_signature');
 const types = require('./types');
 const bip66 = require('bip66');
 const ecc = require('tiny-secp256k1');
-const pushdata = require('pushdata-bitcoin');
+const pushdata = require('@asoltys/pushdata-bitcoin');
 const typeforce = require('typeforce');
-exports.OPS = require('bitcoin-ops');
-const REVERSE_OPS = require('bitcoin-ops/map');
+exports.OPS = require('@asoltys/bitcoin-ops');
+const REVERSE_OPS = require('@asoltys/bitcoin-ops/map');
 const OP_INT_BASE = exports.OPS.OP_RESERVED; // OP_1 - 1
 function isOPInt(value) {
   return (
