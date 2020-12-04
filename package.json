@@ -4,11 +4,10 @@
   "description": "Client-side Bitcoin JavaScript library",
   "main": "./src/index.js",
   "exports": {
-    "import": "./src/index.js",
-    "require": "./src/index.js"
+    "require": "./src/index.js",
+    "import": "./esm/wrapper.js"
   },
-  "type": "module",
-  "module": "./src/index.js",
+  "module": "./esm/wrapper.js",
   "types": "./types/index.d.ts",
   "engines": {
     "node": ">=8.0.0"
