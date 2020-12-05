@@ -1,4 +1,4 @@
-import bitcoinjs from '../src/index.js';
+import * as bitcoinjs from '../src/index.js';
 
 export const bip32 = bitcoinjs.bip32;
 export const address = bitcoinjs.address;
@@ -12,3 +12,4 @@ export const Psbt = bitcoinjs.Psbt;
 export const opcodes = bitcoinjs.opcodes;
 export const Transaction = bitcoinjs.Transaction;
 export const TransactionBuilder = bitcoinjs.TransactionBuilder;
+export default bitcoinjs;
