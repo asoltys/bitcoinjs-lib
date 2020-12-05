@@ -2,25 +2,25 @@
 # yarn lockfile v1
 
 
-"@asoltys/bitcoin-ops@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@asoltys/bitcoin-ops/-/bitcoin-ops-2.0.0.tgz#df6a031f0ad89650ad11520225e2848ed782f0e9"
-  integrity sha512-fJumw71+2lFuj1gYz/LOlimikc7qEVdQK86RTph8yG7rK5Y5pE6PnZr4KIrwxNkKW+/ejineckeWJU67nyYIVA==
+"@asoltys/bitcoin-ops@^2.0.1", "@asoltys/bitcoin-ops@^2.0.7":
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/@asoltys/bitcoin-ops/-/bitcoin-ops-2.0.7.tgz#c9f5eceb1195f369aeefc604305e78634f57a1e7"
+  integrity sha512-t5gbaLODRugz+W5K7Mud/sTbZOfYlVlBKKmAM/eiPnPjuG/+IzUgaX3n0WywjQMX7DIXipnNTfsFgT5YCvl62Q==
 
-"@asoltys/minimaldata@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@asoltys/minimaldata/-/minimaldata-2.0.1.tgz#1f5b9eaf2d807f22da29e0ae184d01c018c2ea40"
-  integrity sha512-ru8yNYQpOFito9SrxTdFWaR4bmzKyKs4IgVBlxcZCxBLOOArUC0Or+TgH2kDdx1nghBj/yxHv8S2xEs47q73rQ==
+"@asoltys/minimaldata@^2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@asoltys/minimaldata/-/minimaldata-2.0.3.tgz#77fdf9eb21a8fe5d67bc9e49e7e1c43d47cd9515"
+  integrity sha512-XWcka5ecNexU76S3UqpKU2tBJLOwQzEGTD/oE5UaXz7W47WCRbtTk0fVgwPfrXW6WZJNQOVfUsHzu2Uj6ALPpw==
   dependencies:
-    "@asoltys/bitcoin-ops" "^2.0.0"
-    "@asoltys/pushdata-bitcoin" "^1.1.0"
+    "@asoltys/bitcoin-ops" "^2.0.1"
+    "@asoltys/pushdata-bitcoin" "^1.1.3"
 
-"@asoltys/pushdata-bitcoin@^1.1.0", "@asoltys/pushdata-bitcoin@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@asoltys/pushdata-bitcoin/-/pushdata-bitcoin-1.1.1.tgz#8100a747b1b6b8d4768043459ceef5da5fa4d2cc"
-  integrity sha512-UANTusEu8VXUw/21PuXKaZQ6LJpHtedk1Hh+OpAolY/tiCl/3UFG0TTUfxWdZu/t6N9F6AN0LQE4zrp1+ym8KQ==
+"@asoltys/pushdata-bitcoin@^1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@asoltys/pushdata-bitcoin/-/pushdata-bitcoin-1.1.3.tgz#dca67e2eb1370db335220bb9c2620a3ef5faf8c6"
+  integrity sha512-1w253y+hdsawWZixJEq1H1Q8YIe9sWnfyeqqhBPJ+5Q53oeiwCwIoydN7hfM/ogq3v/g/MDSoME6/Rq9s/MMmg==
   dependencies:
-    "@asoltys/bitcoin-ops" "^2.0.0"
+    "@asoltys/bitcoin-ops" "^2.0.1"
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.10.4":
   version "7.10.4"
