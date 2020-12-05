@@ -3,6 +3,7 @@
   "version": "6.1.6",
   "description": "Client-side Bitcoin JavaScript library",
   "main": "./src/index.js",
+  "type": "commonjs",
   "exports": {
     ".": {
       "require": "./src/index.js",
