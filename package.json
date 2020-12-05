@@ -53,6 +53,7 @@
   },
   "files": [
     "src",
+    "esm",
     "types"
   ],
   "dependencies": {
