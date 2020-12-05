@@ -1,6 +1,6 @@
 {
   "name": "@asoltys/bitcoinjs-lib",
-  "version": "6.1.10",
+  "version": "6.1.11",
   "description": "Client-side Bitcoin JavaScript library",
   "main": "./src/index.js",
   "type": "commonjs",
