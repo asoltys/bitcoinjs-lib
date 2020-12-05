@@ -2,17 +2,22 @@
 # yarn lockfile v1
 
 
-"@asoltys/bitcoin-ops@^2.0.1", "@asoltys/bitcoin-ops@^2.0.7":
+"@asoltys/bitcoin-ops@^2.0.1":
   version "2.0.7"
   resolved "https://registry.yarnpkg.com/@asoltys/bitcoin-ops/-/bitcoin-ops-2.0.7.tgz#c9f5eceb1195f369aeefc604305e78634f57a1e7"
   integrity sha512-t5gbaLODRugz+W5K7Mud/sTbZOfYlVlBKKmAM/eiPnPjuG/+IzUgaX3n0WywjQMX7DIXipnNTfsFgT5YCvl62Q==
 
-"@asoltys/minimaldata@^2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@asoltys/minimaldata/-/minimaldata-2.0.3.tgz#77fdf9eb21a8fe5d67bc9e49e7e1c43d47cd9515"
-  integrity sha512-XWcka5ecNexU76S3UqpKU2tBJLOwQzEGTD/oE5UaXz7W47WCRbtTk0fVgwPfrXW6WZJNQOVfUsHzu2Uj6ALPpw==
+"@asoltys/bitcoin-ops@^2.0.10":
+  version "2.0.10"
+  resolved "https://registry.yarnpkg.com/@asoltys/bitcoin-ops/-/bitcoin-ops-2.0.10.tgz#be64059fc885014d218eb97c9db974a5b444cf7a"
+  integrity sha512-7EmZt85+5Ss3BJ/CXRlVoyFVbe1fmgbklM39mkJXtJo2jR0Ev4chnPJdjl09sIcTB5rKx/jPnnNI8TCL1CyMDw==
+
+"@asoltys/minimaldata@^2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@asoltys/minimaldata/-/minimaldata-2.0.4.tgz#9dd59d73f648cfb6fb2b2f99c78a605c318f673d"
+  integrity sha512-PTpotv+d9OG1ZXddgSNpqmwb9BE7xaXxoikG6FOXMF7XfuG3sz9Jy7OVGmZKLEjGQXBQSCYFhmrcCv8jVjQ2ZA==
   dependencies:
-    "@asoltys/bitcoin-ops" "^2.0.1"
+    "@asoltys/bitcoin-ops" "^2.0.10"
     "@asoltys/pushdata-bitcoin" "^1.1.3"
 
 "@asoltys/pushdata-bitcoin@^1.1.3":
@@ -21,6 +26,13 @@
   integrity sha512-1w253y+hdsawWZixJEq1H1Q8YIe9sWnfyeqqhBPJ+5Q53oeiwCwIoydN7hfM/ogq3v/g/MDSoME6/Rq9s/MMmg==
   dependencies:
     "@asoltys/bitcoin-ops" "^2.0.1"
+
+"@asoltys/pushdata-bitcoin@^1.1.4":
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/@asoltys/pushdata-bitcoin/-/pushdata-bitcoin-1.1.4.tgz#b3be4dc7f101b98b3317a3ab41f923bbc09a440b"
+  integrity sha512-BDqKtYr2ChogxGt1FEDaZZr2J6MlOXCFAt1Qceny5T2dICO/YFxnrI4o/kNmNsxQLaBUZqqVQaNN7raJXRuKhQ==
+  dependencies:
+    "@asoltys/bitcoin-ops" "^2.0.10"
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.10.4":
   version "7.10.4"
