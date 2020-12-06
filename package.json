@@ -61,7 +61,7 @@
     "@asoltys/bitcoin-ops": "^2.0.10",
     "@asoltys/pushdata-bitcoin": "^1.1.4",
     "bech32": "^1.1.2",
-    "bip32": "^2.0.4",
+    "@asoltys/bip32": "^2.0.7",
     "bip66": "^1.1.0",
     "bs58check": "^2.0.0",
     "create-hash": "^1.1.0",

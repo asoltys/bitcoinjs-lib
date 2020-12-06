@@ -1,4 +1,4 @@
-import * as bip32 from 'bip32';
+import * as bip32 from '@asoltys/bip32';
 import * as address from './address';
 import * as crypto from './crypto';
 import * as ECPair from './ecpair';

@@ -1,6 +1,6 @@
 'use strict';
 Object.defineProperty(exports, '__esModule', { value: true });
-const bip32 = require('bip32');
+const bip32 = require('@asoltys/bip32');
 exports.bip32 = bip32;
 const address = require('./address');
 exports.address = address;
