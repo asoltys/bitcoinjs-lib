@@ -2,7 +2,7 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 const NETWORKS = require('./networks');
 const types = require('./types');
-const ecc = require('tiny-secp256k1');
+const ecc = require('@asoltys/tiny-secp256k1');
 const randomBytes = require('randombytes');
 const typeforce = require('typeforce');
 const wif = require('wif');

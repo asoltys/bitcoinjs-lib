@@ -5,7 +5,7 @@ const bscript = require('../script');
 const lazy = require('./lazy');
 const OPS = bscript.OPS;
 const typef = require('typeforce');
-const ecc = require('tiny-secp256k1');
+const ecc = require('@asoltys/tiny-secp256k1');
 const OP_INT_BASE = OPS.OP_RESERVED; // OP_1 - 1
 function stacksEqual(a, b) {
   if (a.length !== b.length) return false;

@@ -5,7 +5,7 @@ const bscript = require('../script');
 const lazy = require('./lazy');
 const typef = require('typeforce');
 const OPS = bscript.OPS;
-const ecc = require('tiny-secp256k1');
+const ecc = require('@asoltys/tiny-secp256k1');
 // input: {signature}
 // output: {pubKey} OP_CHECKSIG
 function p2pk(a, opts) {
