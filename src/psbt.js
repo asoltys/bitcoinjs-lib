@@ -1,8 +1,8 @@
 'use strict';
 Object.defineProperty(exports, '__esModule', { value: true });
-const bip174_1 = require('bip174');
-const varuint = require('bip174/src/lib/converter/varint');
-const utils_1 = require('bip174/src/lib/utils');
+const bip174_1 = require('@asoltys/bip174');
+const varuint = require('@asoltys/bip174/src/lib/converter/varint');
+const utils_1 = require('@asoltys/bip174/src/lib/utils');
 const address_1 = require('./address');
 const bufferutils_1 = require('./bufferutils');
 const crypto_1 = require('./crypto');
