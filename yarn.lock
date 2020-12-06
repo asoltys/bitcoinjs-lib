@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@asoltys/bip174@^2.0.4":
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/@asoltys/bip174/-/bip174-2.0.4.tgz#c2ad48e6c9d5b25869d68f9c0da141987a416a69"
-  integrity sha512-Cn8ENmVH3c6B9pJmtNOE+qfTb324bUGEhu0I4IIiZEa5H115RdqRyj761dQae32l8EAGJD0v72rJijps3Rr3mw==
+"@asoltys/bip174@3":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@asoltys/bip174/-/bip174-3.0.0.tgz#d9379ad8efb68d552c701c9b11454d8b82dd6904"
+  integrity sha512-BN17CgpZ0yqCO6CelkaZ51fNiYzmu//SIG2WSerleD0CbqqLGd+MHJPeFt3qdp6a0M3iQCeiGwMzP/y4yhjDMA==
 
 "@asoltys/bitcoin-ops@^2.0.1":
   version "2.0.7"
