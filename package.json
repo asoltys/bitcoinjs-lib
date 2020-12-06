@@ -57,7 +57,7 @@
     "types"
   ],
   "dependencies": {
-    "@asoltys/bip174": "3",
+    "@asoltys/bip174": "^3.0.1",
     "@asoltys/bitcoin-ops": "^2.0.10",
     "@asoltys/pushdata-bitcoin": "^1.1.4",
     "bech32": "^1.1.2",
