@@ -1,5 +1,1 @@
-const a = {
-  test: "test"
-};
-
-export default a;
+export { default } from '../src/index.js';
